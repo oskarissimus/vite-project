@@ -14,10 +14,36 @@ describe("App", () => {
     act(() => {
       button.click();
     });
-    expect(button).toHaveTextContent("count is 1");
     act(() => {
       button.click();
     });
-    expect(button).toHaveTextContent("count is 2");
+    act(() => {
+      button.click();
+    });
+    act(() => {
+      button.click();
+    });
+    act(() => {
+      button.click();
+    });
+    act(() => {
+      button.click();
+    });
+    act(() => {
+      button.click();
+    });
+    act(() => {
+      button.click();
+    });
+    act(() => {
+      button.click();
+    });
+    act(() => {
+      button.click();
+    });
+    act(() => {
+      button.click();
+    });
+    expect(button).toHaveTextContent("count is 10");
   });
 });
